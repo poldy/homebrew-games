@@ -11,6 +11,14 @@ class ArxLibertatis < Formula
     sha256 "8f1938381423b45d798c8a2665484b4f9a09b8070443b80986e935d07b0410af" => :mavericks
   end
 
+  head do
+    url "https://github.com/poldy/ArxLibertatis.git"
+
+    depends_on "cmake" => :build
+    depends_on "inkscape" => :build
+    depends_on "imagemagick" => :build
+  end
+
   option "without-innoextract", "Build without arx-install-data"
 
   depends_on "cmake" => :build
