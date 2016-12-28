@@ -12,7 +12,7 @@ class ArxLibertatis < Formula
   end
 
   head do
-    url "https://github.com/poldy/ArxLibertatis.git"
+    url "https://github.com/arx/ArxLibertatis.git"
 
     depends_on "cmake" => :build
     depends_on "inkscape" => :build
